@@ -1,0 +1,3 @@
+[submodule "gitHub-exercise/naive-addition"]
+	path = gitHub-exercise/naive-addition
+	url = git@github.com:RBarroco/naive-addition.git
