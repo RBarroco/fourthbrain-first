@@ -23,7 +23,7 @@ with st.sidebar:
     # Available models for selection
 
     # YOUR CODE GOES HERE!
-    models = ["DNN", "TPOT"]
+    models = ["dnn_model", "tpot"]
 
     # Add model select boxes
     model1_select = st.selectbox(
@@ -63,6 +63,7 @@ with tab2:
 
     # Columns for side-by-side model comparison
     col1, col2 = st.columns(2)
+
 
     # Build the confusion matrix for the first model.
     with col1:
